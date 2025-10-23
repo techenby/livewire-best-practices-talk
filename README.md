@@ -1,9 +1,9 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Livewire in Production: Avoiding Pitfalls, Applying Best Practices
 
 To start the slide show:
 
-- `pnpm install`
-- `pnpm dev`
+- `npm install`
+- `npm dev`
 - visit <http://localhost:3030>
 
 Edit the [slides.md](./slides.md) to see the changes.
