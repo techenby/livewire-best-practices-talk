@@ -5,23 +5,24 @@ title: "Livewire in Production: Avoiding Pitfalls, Applying Best Practices"
 info: |
   ## Livewire in Production:
   Avoiding Pitfalls, Applying Best Practices
-class: text-center
+author: "Andy Newhouse aka TechEnby"
+colorSchema: dark
 drawings:
   persist: false
 transition: slide-left
 mdc: true
+font:
+  serif: BROTHER
+  mono: MonoLisa
 ---
 
 # Livewire in Production:
 ## Avoiding Pitfalls, Applying Best Practices
 
-Andy Newhouse (they/them)
-
-<h2 v-click><span v-mark="{ at: 2 }">This is a ROUGH draft</span></h2>
-
-<!--
-
--->
+<div class="pt-24">
+Andy Newhouse aka TechEnby  
+(they/them)
+</div>
 
 ---
 transition: fade-out
@@ -30,11 +31,9 @@ layout: center
 
 # Hey, I'm Andy
 
-[//]: # (- I'm one of those scary trans people)
 <v-clicks depth="2">
 
-- I'm a Lead Programmer @ Tighten 
-- I'm one of those scary trans people
+- I'm a Lead Programmer @ Tighten
 - I'm a big nerd
   - LEGO
   - 3D Printing
@@ -42,15 +41,13 @@ layout: center
   - etc.
 - I'm Livewire's Biggest Fan __*__{style="font-family: MonoLisa;"}
   - \* Cannot be scientifically proven{style="font-family: MonoLisa; list-style-type: none;"} 
+
 </v-clicks>
-
-
-
 
 <!--
 Big Nerd: LEGO, Band, 3D printing and more
 
-Livewire: I've been using Livewire since the beginning and I freaking love it.
+Livewire: I've been using Livewire since the beginning, and I freaking love it.
 -->
 
 ---
@@ -104,11 +101,11 @@ layout: center
 ---
 
 <div class="relative">
-  <img src="/images/great-power-still.jpg" alt="First frame from the GIF">
+  <img src="/public/images/great-power-still.jpg" alt="First frame from the GIF">
 
-  <img v-click src="/images/great-power.gif" alt="Animated GIF" class="absolute inset-0">
+  <img v-click src="/public/images/great-power.gif" alt="Animated GIF" class="absolute inset-0">
 
-  <img v-click src="/images/great-power-last-still.jpg" alt="Last frame from the GIF" class="absolute inset-0">
+  <img v-click src="/public/images/great-power-last-still.jpg" alt="Last frame from the GIF" class="absolute inset-0">
 </div>
 
 ---
