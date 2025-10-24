@@ -105,6 +105,10 @@ I'm Livewire's Biggest Fan..., and have been since 2018...
 -->
 
 ---
+
+# My History with Livewire
+
+---
 layout: image
 backgroundSize: 80%
 image: /images/embrace-the-backend-thumbnail.jpg
@@ -131,19 +135,87 @@ image: /images/origin-of-livewire.png
 ---
 
 <!--
-I totally agree with this comment, this talk was the origin of Livewire
+The first comment under the YouTube video says: "This speech should be named "The Origin of Livewire", which is totally true! 
+
+And this talk is when I became a fan.
 -->
 
 ---
 
+# My History with Livewire
+
+-- convert bullet points to horizontal timeline -- 
+
+- July 2018, Laracon US in Chicago - Embrace the Backend
+- July 2019, Laracon US in NYC - Introducing: Livewire
+- February 2020, Livewire v1 released
+- March 2020, `composer require livewire/livewire`
+
+---
+transition: fade-out
+layout: center
+---
+
+# Andy's Keys to Success
+
+<v-click>
+
+Courtesy of building 100s of Livewire Apps
+
+</v-click>
+
 <!--
-At the time when I started using Livewire I was a solo dev working at a company with 
-two multi-million dollar music e-commerce stores
 
-I was very interested in simplifying my workflow, and forgetting about Javascript
+Let's start off with an easy one that I promise will save you 2-5 headaches...
 
-But as with all things...
 -->
+
+---
+transition: fade-out
+layout: center
+---
+
+# Use `wire:key` for _every_ loop
+
+<v-click>
+
+````md magic-move
+```blade
+@foreach ($this->users as $user)
+    <div>{{ $user->name }}</div>
+@endforeach
+```
+```blade
+@foreach ($this->users as $user)
+    <div :wire:key="$user->id">{{ $user->name }}</div>
+@endforeach
+```
+```blade
+@foreach ($this->users as $user)
+    <div :wire:key="'user-' . $user->id">{{ $user->name }}</div>
+@endforeach
+```
+````
+
+</v-click>
+
+<!--
+
+- Once upon a time there were 2 developers, Andrew & Andy who were building a to-do app with many nested Livewire components...
+
+- Livewire uses Vue's reactivity engine
+- Keys are important to not get weird side effects
+- It's hard to debug cause usually there's no error
+- So common it's in the Trouble shooting guide
+- Example component that shows reactivity bug
+  - fix bug by adding key
+  - introduce new bug by adding a similar table/list
+  - fix by adding prefix
+  - show `id()` or `keyFor()`
+
+-->
+
+
 
 ---
 transition: swap
@@ -177,61 +249,6 @@ layout: center
 
 <!--
 If you wouldn't do it when building an API, think twice about doing it in Livewire or Inertia
--->
-
----
-transition: fade-out
-layout: center
----
-
-# Andy's Keys to Success
-
-<v-click>
-
-Courtesy of building 100s of Livewire Apps
-
-</v-click>
-
----
-transition: fade-out
-layout: center
----
-
-# You must use `wire:key`, no exceptions
-
-<v-click>
-
-````md magic-move
-```blade
-@foreach ($this->users as $user)
-    <div>{{ $user->name }}</div>
-@endforeach
-```
-```blade
-@foreach ($this->users as $user)
-    <div :wire:key="$user->id">{{ $user->name }}</div>
-@endforeach
-```
-```blade
-@foreach ($this->users as $user)
-    <div :wire:key="'user-' . $user->id">{{ $user->name }}</div>
-@endforeach
-```
-````
-
-</v-click>
-
-<!--
-In Vue.js, keys are crucial for the reactivity engine, particularly in the context of rendering lists of elements.
-
-| Reason                     | Explanation                                                                                          |
-|----------------------------|------------------------------------------------------------------------------------------------------|
-| Unique Identification      | Keys provide a unique identifier for each item in a list, helping Vue track changes to individual items. |
-| Efficient Updates          | When keys are used, Vue can optimize rendering by only re-rendering elements that have changed, rather than the entire list. |
-| Preserving State           | Keys help preserve the state of components when items are added, removed, or reordered in a list. This is particularly important for form inputs or animations. |
-| Avoiding Rendering Issues   | Without keys, Vue may incorrectly reuse elements, leading to unexpected behavior or bugs in the UI. |
-
-Some of the _hardest_ bugs I've experienced have been because I forgot to add `wire:key` 
 -->
 
 ---
