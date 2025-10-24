@@ -50,7 +50,7 @@ Let's start off with an easy one that I promise will save you 2-5 headaches...
 
 ---
 src: ./pages/wire-key.md
---
+---
 
 ---
 src: ./pages/right-tool.md
