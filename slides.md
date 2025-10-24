@@ -24,6 +24,52 @@ Andy Newhouse aka TechEnby
 </div>
 
 ---
+transition: swap
+layout: image
+image: /images/livewire-homepage.png
+backgroundSize: contain
+---
+
+<!--
+Livewire, the whole reason we traveled to this Buffalo place
+
+The most productive way to build your next web app
+
+But more importantly to me, and what got me excited about Livewire was...
+-->
+
+---
+transition: swap
+layout: image
+image: /images/livewire-homepage-modified.png
+backgroundSize: contain
+---
+
+<div class="flex flex-items-center flex-justify-center absolute inset-0 -rotate-5">
+<h1 v-click class="text-center font-bold bg-pink px-3.5 py-2.5 -mt-12">Without leaving PHP</h1>
+</div>
+
+<!--
+Powerful, dynamic, front-end UIs without leaving PHP.
+
+The key phrase for me is...
+
+"without ...
+-->
+
+---
+
+<div class="flex flex-items-center flex-justify-center absolute inset-0 -rotate-5">
+<h1 class="text-center font-bold bg-pink px-3.5 py-2.5 text-white -mt-12">Without leaving PHP</h1>
+</div>
+
+<!--
+... leaving PHP"
+
+More on that later, but first...
+-->
+
+---
 transition: fade-out
 layout: center
 ---
@@ -44,45 +90,77 @@ layout: center
 </v-clicks>
 
 <!--
-Big Nerd: LEGO, Band, 3D printing and more
+I'm a big nerd, just like all of you.
 
-Livewire: I've been using Livewire since the beginning, and I freaking love it.
+...
+
+I have a LEGO city in my basement...
+My spouse and I print all sorts of fidgets...
+I'm in 2 local queer community bands where I play clarinet and trumpet...
+There's more, but John'll kill me if I go over 
+
+But most importantly...
+
+I'm Livewire's Biggest Fan..., and have been since 2018...
 -->
 
 ---
-transition: swap
 layout: image
-image: /images/livewire-homepage.png
-backgroundSize: contain
+backgroundSize: 80%
+image: /images/embrace-the-backend-thumbnail.jpg
 ---
 
 <!--
-Livewire, the whole reason we traveled to this Buffalo place
-
-The most effective...
-
-But more importantly to me, and what got me excited about Livewire at Laracon Chicago was...
+Who remembers this talk from Laracon 2018?
 -->
 
 ---
-transition: swap
 layout: image
-image: /images/livewire-homepage-modified.png
-backgroundSize: contain
+backgroundSize: 60%
+image: /images/embrace-the-backend-iconic-slide.png
 ---
-
-<div class="flex flex-items-center flex-justify-center absolute inset-0">
-<h1 v-click class="text-center font-bold bg-pink px-3.5 py-2.5">Without leaving PHP</h1>
-</div>
 
 ---
 layout: image
-backgroundSize: contain
+backgroundSize: 60%
+image: /images/embrace-the-backend-iconic-slide.png
 ---
 
-<div class="flex flex-items-center flex-justify-center absolute inset-0">
-<h1 class="text-center font-bold bg-pink px-3.5 py-2.5 text-white">Without leaving PHP</h1>
-</div>
+<!--
+Or remembers this iconic slide?
+-->
+
+---
+layout: image
+backgroundSize: 60%
+image: /images/embrace-the-backend-iconic-slide.png
+---
+
+<!--
+Or remembers this iconic slide?
+-->
+
+---
+layout: image
+backgroundSize: 60%
+image: /images/embrace-the-backend-iconic-slide.png
+---
+
+<!--
+Or remembers this iconic slide?
+-->
+
+---
+layout: image
+backgroundSize: 80%
+image: /images/origin-of-livewire.png
+---
+
+<!--
+I totally agree with this comment, this talk was the origin of Livewire
+-->
+
+---
 
 <!--
 At the time when I started using Livewire I was a solo dev working at a company with 
