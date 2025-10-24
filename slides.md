@@ -120,32 +120,6 @@ backgroundSize: 60%
 image: /images/embrace-the-backend-iconic-slide.png
 ---
 
----
-layout: image
-backgroundSize: 60%
-image: /images/embrace-the-backend-iconic-slide.png
----
-
-<!--
-Or remembers this iconic slide?
--->
-
----
-layout: image
-backgroundSize: 60%
-image: /images/embrace-the-backend-iconic-slide.png
----
-
-<!--
-Or remembers this iconic slide?
--->
-
----
-layout: image
-backgroundSize: 60%
-image: /images/embrace-the-backend-iconic-slide.png
----
-
 <!--
 Or remembers this iconic slide?
 -->
