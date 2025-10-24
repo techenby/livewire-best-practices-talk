@@ -1,6 +1,5 @@
 ---
 theme: default
-background: /images/night-lightning.jpg
 title: "Livewire in Production: Avoiding Pitfalls, Applying Best Practices"
 info: |
   ## Livewire in Production:
@@ -86,7 +85,7 @@ backgroundSize: contain
 </div>
 
 <!--
-At the time when I started using Livewire I was a single dev working at a company with 
+At the time when I started using Livewire I was a solo dev working at a company with 
 two multi-million dollar music e-commerce stores
 
 I was very interested in simplifying my workflow, and forgetting about Javascript
@@ -101,11 +100,11 @@ layout: center
 ---
 
 <div class="relative">
-  <img src="/public/images/great-power-still.jpg" alt="First frame from the GIF">
+  <img src="/images/great-power-still.jpg" alt="First frame from the GIF">
 
-  <img v-click src="/public/images/great-power.gif" alt="Animated GIF" class="absolute inset-0">
+  <img v-click src="/images/great-power.gif" alt="Animated GIF" class="absolute inset-0">
 
-  <img v-click src="/public/images/great-power-last-still.jpg" alt="Last frame from the GIF" class="absolute inset-0">
+  <img v-click src="/images/great-power-last-still.jpg" alt="Last frame from the GIF" class="absolute inset-0">
 </div>
 
 ---
