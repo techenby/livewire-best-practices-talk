@@ -38,11 +38,54 @@ And this talk is when I became a fan.
 
 ---
 
-# My History with Livewire
+<h1>My History with Livewire</h1>
 
--- convert bullet points to horizontal timeline --
+<div class="w-full pt-2 mt-18">
+  <div class="relative">
+    <div class="absolute left-4 right-4 top-3 h-[4px] bg-gray-200 dark:bg-gray-700"></div>
+    <ol class="grid grid-cols-1 sm:grid-cols-4 gap-y-10 sm:gap-8 !list-none" role="list" aria-label="My History with Livewire timeline">
+      <li v-click="1" class="relative text-center sm:text-left">
+        <div class="flex items-center justify-center">
+          <span class="z-10 w-6 h-6 mr-28 rounded-full bg-primary border-4 border-white dark:border-gray-900 shadow" aria-hidden="true"></span>
+        </div>
+        <div class="mt-3">
+          <p class="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">July 2018</p>
+          <p class="font-semibold">Embrace the Backend</p>
+          <p class="text-sm text-gray-600 dark:text-gray-300">Laracon US — Chicago</p>
+        </div>
+      </li>
+      <li v-click="2" class="relative text-center sm:text-left">
+        <div class="flex items-center justify-center">
+          <span class="z-10 w-6 h-6 mr-28 rounded-full bg-primary border-4 border-white dark:border-gray-900 shadow" aria-hidden="true"></span>
+        </div>
+        <div class="mt-3">
+          <p class="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">July 2019</p>
+          <p class="font-semibold">Introducing: Livewire</p>
+          <p class="text-sm text-gray-600 dark:text-gray-300">Laracon US — NYC</p>
+        </div>
+      </li>
+      <li v-click="3" class="relative text-center sm:text-left">
+        <div class="flex items-center justify-center">
+          <span class="z-10 w-6 h-6 mr-18 rounded-full bg-primary border-4 border-white dark:border-gray-900 shadow" aria-hidden="true"></span>
+        </div>
+        <div class="mt-3">
+          <p class="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">February 2020</p>
+          <p class="font-semibold">Livewire v1 released</p>
+        </div>
+      </li>
+      <li v-click="4" class="relative text-center sm:text-left">
+        <div class="flex items-center justify-center">
+          <span class="z-10 w-6 h-6 mr-20 rounded-full bg-primary border-4 border-white dark:border-gray-900 shadow" aria-hidden="true"></span>
+        </div>
+        <div class="mt-3">
+          <p class="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">March 2020</p>
+          <p class="font-semibold">Getting started</p>
+          <p class="text-sm text-gray-600 dark:text-gray-300">
+            <code class="font-mono px-1.5 py-0.5 rounded bg-gray-100 dark:bg-gray-800">composer require livewire/livewire</code>
+          </p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</div>
 
-- July 2018, Laracon US in Chicago - Embrace the Backend
-- July 2019, Laracon US in NYC - Introducing: Livewire
-- February 2020, Livewire v1 released
-- March 2020, `composer require livewire/livewire`
