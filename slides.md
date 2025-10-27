@@ -40,7 +40,7 @@ layout: section
 
 <v-click>
 
-Courtesy of building 100s of Livewire Apps
+## Courtesy of building 100s of Livewire Apps
 
 </v-click>
 
@@ -55,3 +55,21 @@ src: ./pages/wire-key.md
 ---
 src: ./pages/right-tool.md
 ---
+
+---
+src: ./pages/request-size.md
+---
+
+---
+src: ./pages/security.md
+---
+
+---
+src: ./pages/quick-tips.md
+---
+
+---
+src: ./pages/wrap-up.md
+---
+
+
