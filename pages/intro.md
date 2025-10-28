@@ -59,8 +59,7 @@ layout: center
     - 3D Printing
     - Band
     - etc.
-- I'm Livewire's Biggest Fan __*__{style="font-family: MonoLisa;"}
-    - \* Cannot be scientifically proven{style="font-family: MonoLisa; list-style-type: none;"}
+- I'm Livewire's Biggest Fan
 
 </v-clicks>
 

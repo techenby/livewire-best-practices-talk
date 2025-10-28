@@ -78,7 +78,7 @@ And this talk is when I became a fan.
           <span class="z-10 w-6 h-6 mr-20 rounded-full bg-primary border-4 border-white dark:border-gray-900 shadow" aria-hidden="true"></span>
         </div>
         <div class="mt-3">
-          <p class="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">March 2020</p>
+          <p class="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">March 18, 2020</p>
           <p class="font-semibold">Getting started</p>
           <p class="text-sm text-gray-600 dark:text-gray-300">
             <code class="font-mono px-1.5 py-0.5 rounded bg-gray-100 dark:bg-gray-800">composer require livewire/livewire</code>
@@ -89,3 +89,24 @@ And this talk is when I became a fan.
   </div>
 </div>
 
+<!--
+Some sort of joke about nothing else interesting happening in March of 2020
+
+I've been around since the beginning of Livewire, and it's been such a joy.
+-->
+
+---
+layout: section
+---
+
+# Why Livewire?
+
+<!--
+Why did I install a brand-new package into an app that was already profitable?
+
+Because I was a solo dev sick of context switching, 
+the both the Javascript and Laravel worlds felt like 
+it was changing daily and I had stuff to ship
+Keeping up to date with Laravel and Livewire seemed
+a lot easier than Vue and Laravel.
+-->

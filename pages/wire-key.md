@@ -35,6 +35,19 @@ layout: center
     </div>
 </div>
 
+<!--
+Read this out
+-->
+
+---
+layout: image
+image: /images/once-upon-a-time.png
+backgroundSize: contain
+---
+
+<!--
+Storytime. Once upon a time, there were two developers, Andrew and Andy, who were building a to-do app with many nested Livewire components. When we were playing with the different Livewire components, we would delete one or reorder them or edit one, and the rendering would get all messed up. It took us hours and days to figure out what the problem was. The problem was wire:key. We didn't have wire:keys on our nested Livewire components. If we had just checked the documentation, we probably would have seen this little tidbit about how we needed a wire:key on both the div and the Livewire component, and that would have saved us, at least me, two pipe headaches.
+-->
 
 ---
 

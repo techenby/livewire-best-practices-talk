@@ -5,6 +5,12 @@ layout: section
 # Use the right tool for the job
 ## Not everything needs to be Livewire
 
+<!--
+Trust me, my compulsion to have _everything_ be the same makes me want everything to be Livewire... but most times plain 'ol blade will work fine.
+
+Again, let's look at the docs...
+-->
+
 ---
 layout: center
 ---
@@ -30,4 +36,6 @@ layout: center
     </div>
 </div>
 
----
+<!--
+Trust me, my compulsion to have _everything_ be the same makes me want everytrhing to be Livewire
+-->
