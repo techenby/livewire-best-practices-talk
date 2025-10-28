@@ -162,3 +162,29 @@ layout: center
 <!--
 It says...
 -->
+
+---
+layout: image
+image: ./images/extensible-blade-components.png
+
+<!--
+This post by Marcus Moore does a really good job of talking about how to extract blade components
+-->
+
+---
+layout: section
+---
+
+# Let's not forget Alpine...
+
+<!--
+I know I really should talk about using Alpine instead of PHP for things... but honestly I got into Livewire to AVOID javascript
+-->
+
+---
+layout: image
+image: ./images/optomistic-ui.png
+
+<!--
+So for a really awesome walk through on using Livewire and Alpine to make optomisic UI's check out this post by Tony and Omar
+-->

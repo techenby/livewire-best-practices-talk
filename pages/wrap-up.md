@@ -5,14 +5,16 @@ layout: section
 # Wrapping it Up
 
 ---
+layout: center
+---
 
 <v-clicks>
 
 - `wire:key` is not optional
 - Blade > Livewire
-- Alpine > Round Trips
-- Keep your public props lean
-- Lock down components & props
+- Javascript still sucks, learn from people smarter than me
+- Keep your components lean
+- Lock down routes, components, props and methods
 - `$refresh` rarely
 - Traits are your friend
 - Use Pest's browser tests & Livewire tests

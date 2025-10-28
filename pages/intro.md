@@ -53,6 +53,7 @@ layout: center
 
 <v-clicks depth="2">
 
+- I use they/them pronouns 
 - I'm a Lead Programmer @ Tighten
 - I'm a big nerd
     - LEGO
@@ -65,6 +66,9 @@ layout: center
 
 <!--
 Hi...
+
+I'm from the midwest, so I'm not going to make a big deal about anyone messing those up.
+And if you mess up and correct yourself I'll really appreciate it
 
 I'm a lead...
 
