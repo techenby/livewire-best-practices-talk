@@ -8,7 +8,130 @@ layout: section
 <!--
 Trust me, my compulsion to have _everything_ be the same makes me want everything to be Livewire... but most times plain 'ol blade will work fine.
 
-Again, let's look at the docs...
+For example...
+-->
+
+---
+
+```php
+class Courses extends Component
+{
+    public Collection $courses;
+    
+    public function mount(): void
+    {
+        $this->courses = Course::query()
+            ->with('meetings')
+            ->withCount('students')
+            ->get();
+    }
+}
+```
+
+<v-clicks>
+
+__Course:__ classes, i.e. Math 101
+
+__Meetings:__ when the course meets, i.e. Monday & Wednesday, 9 - 10:30 am
+
+__Students:__ list of people in class
+
+</v-clicks>
+
+<!--
+Lets take a look at an example of a component that lists courses in a teacher's schedule for a week.
+
+And just to give a little context on this mount method, a course...
+
+meetings...
+
+students...
+-->
+
+---
+
+````md magic-move 
+```blade
+<flux:table>
+    <flux:table.columns>
+        <flux:table.column>Grade</flux:table.column>
+        <flux:table.column>Homeroom</flux:table.column>
+        <flux:table.column>Meets</flux:table.column>
+        <flux:table.column># Students</flux:table.column>
+    </flux:table.columns>
+
+    <flux:table.rows>
+        @foreach ($this->courses as $course)
+            <flux:table.row wire:key="$course->id">
+                <flux:table.cell class="flex gap-2 items-center">
+                    <x-color-dot :background="$course->color->background()" />
+                    <span>{{ $course->grade }}</span>
+                </flux:table.cell>
+                <flux:table.cell>{{ $course->homeroom }}</flux:table.cell>
+                <flux:table.cell>{{ $course->meets }}</flux:table.cell>
+                <flux:table.cell>{{ $course->students_count }}</flux:table.cell>
+            </flux:table.row>
+        @endforeach
+    </flux:table.rows>
+</flux:table>
+```
+```blade 
+<flux:table>
+    <flux:table.columns>
+        <flux:table.column>Grade</flux:table.column>
+        <flux:table.column>Homeroom</flux:table.column>
+        <flux:table.column>Meets</flux:table.column>
+        <flux:table.column># Students</flux:table.column>
+    </flux:table.columns>
+
+    <flux:table.rows>
+        @foreach ($this->courses as $course)
+            <livewire:courses.row :$course wire:key="$course->id" />
+        @endforeach
+    </flux:table.rows>
+</flux:table>
+```
+```blade
+<flux:table.row wire:key="$course->id">
+    <flux:table.cell class="flex gap-2 items-center">
+        <x-color-dot :background="$course->color->background()" />
+        <span>{{ $course->grade }}</span>
+    </flux:table.cell>
+    <flux:table.cell>{{ $course->homeroom }}</flux:table.cell>
+    <flux:table.cell>{{ $course->meets }}</flux:table.cell>
+    <flux:table.cell>{{ $course->students_count }}</flux:table.cell>
+</flux:table.row>
+```
+```blade 
+<flux:table>
+    <flux:table.columns>
+        <flux:table.column>Grade</flux:table.column>
+        <flux:table.column>Homeroom</flux:table.column>
+        <flux:table.column>Meets</flux:table.column>
+        <flux:table.column># Students</flux:table.column>
+    </flux:table.columns>
+
+    <flux:table.rows>
+        @foreach ($this->courses as $course)
+            <x-courses.row :$course wire:key="$course->id" />
+        @endforeach
+    </flux:table.rows>
+</flux:table>
+```
+````
+
+<!--
+Here's the view that the component renders, which lists out all the courses for a teacher.
+
+For a long time, my tendency was to componentize _everything_ which would lead me to...
+
+Create a component for that row...
+
+But does this row really need its own component? It's not _doing_ anything, it's not "live"
+
+Instead, we can make it a _blade_ component which doesn't come with the overhead of Livewire's reactivity.
+
+And if we look at the docs...
 -->
 
 ---
@@ -37,5 +160,5 @@ layout: center
 </div>
 
 <!--
-Trust me, my compulsion to have _everything_ be the same makes me want everytrhing to be Livewire
+It says...
 -->

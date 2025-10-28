@@ -102,7 +102,7 @@ layout: section
 # Why Livewire?
 
 <!--
-Why did I install a brand-new package into an app that was already profitable?
+Why did I install a brand-new package into an app that was already profitable, that already had a perfectly good Vue frontend?
 
 Because I was a solo dev sick of context switching, 
 the both the Javascript and Laravel worlds felt like 
