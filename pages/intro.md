@@ -54,6 +54,7 @@ layout: center
 <v-clicks depth="2">
 
 - I use they/them pronouns 
+- I'm @techenby everywhere
 - I'm a Lead Programmer @ Tighten
 - I'm a big nerd
     - LEGO
