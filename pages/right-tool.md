@@ -166,6 +166,8 @@ It says...
 ---
 layout: image
 image: ./images/extensible-blade-components.png
+backgroundSize: 80%
+---
 
 <!--
 This post by Marcus Moore does a really good job of talking about how to extract blade components
@@ -184,6 +186,8 @@ I know I really should talk about using Alpine instead of PHP for things... but 
 ---
 layout: image
 image: ./images/optomistic-ui.png
+backgroundSize: 80%
+---
 
 <!--
 So for a really awesome walk through on using Livewire and Alpine to make optomisic UI's check out this post by Tony and Omar
