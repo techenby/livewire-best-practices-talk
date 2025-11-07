@@ -104,7 +104,7 @@ image: ./images/mostly-technical.webp
 ---
 layout: image
 backgroundSize: contain
-image: ./images/stephen-rees-carter.jpg
+image: ./images/stephen-rees-carter.webp
 ---
 
 ---

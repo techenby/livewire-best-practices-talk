@@ -152,7 +152,7 @@ test('can delete course', function () {
 ---
 layout: image
 backgroundSize: contain
-image: ./images/test-driven-laravel.png
+image: ./images/test-driven-laravel.webp
 ---
 
 <!--

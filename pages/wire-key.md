@@ -41,7 +41,7 @@ Read this out
 
 ---
 layout: image
-image: /images/once-upon-a-time.png
+image: /images/once-upon-a-time.webp
 backgroundSize: contain
 ---
 
@@ -51,12 +51,12 @@ Storytime. Once upon a time, there were two developers, Andrew and Andy, who wer
 
 ---
 layout: image
-image: /images/task-app-ui.png
+image: /images/task-app-ui.webp
 backgroundSize: contain
 ---
 
 ---
 layout: image
-image: /images/nested-keys.png
+image: /images/nested-keys.webp
 backgroundSize: contain
 ---

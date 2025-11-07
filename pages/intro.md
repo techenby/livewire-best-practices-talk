@@ -1,7 +1,7 @@
 ---
 transition: swap
 layout: image
-image: /images/livewire-homepage.png
+image: /images/livewire-homepage.webp
 backgroundSize: contain
 ---
 
@@ -16,7 +16,7 @@ But more importantly to me, and what got me excited about Livewire was...
 ---
 transition: swap
 layout: image
-image: /images/livewire-homepage-modified.png
+image: /images/livewire-homepage-modified.webp
 backgroundSize: contain
 ---
 

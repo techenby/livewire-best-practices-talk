@@ -165,7 +165,7 @@ It says...
 
 ---
 layout: image
-image: ./images/extensible-blade-components.png
+image: ./images/extensible-blade-components.webp
 backgroundSize: 80%
 ---
 
@@ -185,7 +185,7 @@ I know I really should talk about using Alpine instead of PHP for things... but 
 
 ---
 layout: image
-image: ./images/optomistic-ui.png
+image: ./images/optimistic-ui.webp
 backgroundSize: 80%
 ---
 

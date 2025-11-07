@@ -7,7 +7,7 @@ layout: section
 ---
 layout: image
 backgroundSize: 80%
-image: /images/embrace-the-backend-thumbnail.jpg
+image: /images/embrace-the-backend-thumbnail.webp
 ---
 
 <!--
@@ -17,7 +17,7 @@ Who remembers this talk from Laracon 2018?
 ---
 layout: image
 backgroundSize: 60%
-image: /images/embrace-the-backend-iconic-slide.png
+image: /images/embrace-the-backend-iconic-slide.webp
 ---
 
 <!--
@@ -27,7 +27,7 @@ Or remembers this iconic slide?
 ---
 layout: image
 backgroundSize: 80%
-image: /images/origin-of-livewire.png
+image: /images/origin-of-livewire.webp
 ---
 
 <!--

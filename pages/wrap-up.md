@@ -34,9 +34,9 @@ layout: center
 ---
 
 <div class="relative">
-  <img src="/images/great-power-still.jpg" alt="First frame from the GIF">
+  <img src="/images/great-power-still.webp" alt="First frame from the GIF">
 
   <img v-click src="/images/great-power.gif" alt="Animated GIF" class="absolute inset-0">
 
-  <img v-click src="/images/great-power-last-still.jpg" alt="Last frame from the GIF" class="absolute inset-0">
+  <img v-click src="/images/great-power-last-still.webp" alt="Last frame from the GIF" class="absolute inset-0">
 </div>
