@@ -168,10 +168,10 @@ But now with Pest's browser testing, we can test that clicking the button does a
 -->
 
 ---
-layout: image
-backgroundSize: contain
-image: ./images/test-driven-laravel.webp
+layout: center
 ---
+
+<img src="/images/test-driven-laravel.webp" alt="Screenshot of the Test Driven Laravel course's website">
 
 <!--
 Thank you Adam Wathan for teaching me how to test! How many of you learned TDD from that course?

@@ -173,10 +173,10 @@ It says...
 -->
 
 ---
-layout: image
-image: ./images/extensible-blade-components.webp
-backgroundSize: 80%
+layout: center
 ---
+
+<img src="/images/extensible-blade-components.webp" alt="A screenshot of a Tighten Blog post titled 'Extensible Blade Components'">
 
 <div class="absolute h-full w-full inset-0 flex items-end justify-center">
     <a href="https://tighten.com/insights/extensible-blade-components/" target="_blank" class="text-gray-400 text-sm !border-none">Link</a>
@@ -197,10 +197,10 @@ I know I really should talk about using Alpine instead of PHP for things... but 
 -->
 
 ---
-layout: image
-image: ./images/optimistic-ui.webp
-backgroundSize: 80%
+layout: center
 ---
+
+<img src="/images/optimistic-ui.webp" alt="A screenshot of a Tighten Blog post titled 'Optimistic UI Tricks for Livewire and Alpine'">
 
 <div class="absolute h-full w-full inset-0 flex items-end justify-center">
     <a href="https://tighten.com/insights/optimistic-ui-tips-livewire-alpine/" target="_blank" class="text-gray-400 text-sm !border-none">Link</a>

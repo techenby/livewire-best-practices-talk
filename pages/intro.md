@@ -1,9 +1,8 @@
 ---
 transition: swap
-layout: image
-image: /images/livewire-homepage.webp
-backgroundSize: contain
 ---
+
+<img src="/images/livewire-homepage.webp" alt="A screenshot of the Livewire homepage on October 28, 2025. I removed a lot of extra elements to focus on the text 'The most productive way to build your next web app.'">
 
 <!--
 Livewire, the whole reason we traveled to this Buffalo place
@@ -15,10 +14,9 @@ But more importantly to me, and what got me excited about Livewire was...
 
 ---
 transition: swap
-layout: image
-image: /images/livewire-homepage-modified.webp
-backgroundSize: contain
 ---
+
+<img src="/images/livewire-homepage-modified.webp" alt="A modified screenshot of the previous image. Now the text that is highlighted is: 'Powerful, dynamic, front-end UIs without leaving PHP.'">
 
 <div class="flex flex-items-center flex-justify-center absolute inset-0 -rotate-5">
 <h1 v-click class="text-center font-bold bg-pink px-3.5 py-2.5 -mt-12">Without leaving PHP</h1>

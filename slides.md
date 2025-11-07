@@ -1,5 +1,5 @@
 ---
-theme: default
+theme: ./theme
 title: "Livewire in Production: Avoiding Pitfalls, Applying Best Practices"
 info: |
   ## Livewire in Production:

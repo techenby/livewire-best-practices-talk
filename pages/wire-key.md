@@ -40,23 +40,27 @@ Read this out
 -->
 
 ---
-layout: image
-image: /images/once-upon-a-time.webp
-backgroundSize: contain
+layout: center
 ---
+
+<img src="/images/once-upon-a-time.webp" alt="Two people with backpacks hike on a trail; one holds a lyre and has colorful hair (Andy Newhouse), the other carries an axe (Andrew Morgan). 'Once upon a time' is written above them, with mountains and trees in the background.">
 
 <!--
 Storytime. Once upon a time, there were two developers, Andrew and Andy, who were building a to-do app with many nested Livewire components. When we were playing with the different Livewire components, we would delete one or reorder them or edit one, and the rendering would get all messed up. It took us hours and days to figure out what the problem was. The problem was wire:key. We didn't have wire:keys on our nested Livewire components. If we had just checked the documentation, we probably would have seen this little tidbit about how we needed a wire:key on both the div and the Livewire component, and that would have saved us, at least me, two pipe headaches.
 -->
 
 ---
-layout: image
-image: /images/task-app-ui.webp
-backgroundSize: contain
+layout: center
 ---
 
+<img src="/images/task-app-ui.webp" class="w-[75%] mx-auto" alt="A simple tldraw of a todo app with nested items. Each row has a checkbox, edit, and delete button. The heading says 'Planning Wire:Live' and rows are 'Things to Book', 'Venue', 'Catering', 'Speakers'">
+
 ---
-layout: image
-image: /images/nested-keys.webp
-backgroundSize: contain
+layout: center
 ---
+
+<img src="/images/nested-keys.webp" alt="A screenshot of a section of the Livewire documentation ">
+
+<div class="absolute h-full w-full inset-0 flex items-end justify-center">
+    <a href="https://livewire.laravel.com/docs/3.x/troubleshooting#adding-wirekey" target="_blank" class="text-gray-400 text-sm !border-none">Link</a>
+</div>

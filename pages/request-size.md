@@ -5,10 +5,15 @@ layout: section
 # Keep Sinks in the Kitchen
 
 ---
-
+layout: center
+---
 # Not Everything Needs to Be a Public Property
 
+<v-click>
+
 ## Sometimes the best Livewire optimization is <span x-mark>_not_</span> adding more state.
+
+</v-click>
 
 <!--
 I see a lot of Livewire components where every variable is declared as a public property.  

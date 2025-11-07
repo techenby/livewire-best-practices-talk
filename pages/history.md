@@ -5,30 +5,30 @@ layout: section
 # My History with Livewire
 
 ---
-layout: image
-backgroundSize: 80%
-image: /images/embrace-the-backend-thumbnail.webp
+layout: center
 ---
+
+<img src="/images/embrace-the-backend-thumbnail.webp" class="w-[80%] mx-auto" alt="The thumbnail of Caleb's 2018 talk. The image is a illustrated version of the Chicago skyline. Over the background is the text 'Chicago, IL', 'Laracon', 'July 25 - 26, 2018', 'Caleb Porzio', 'Embrace the Backend'">
 
 <!--
 Who remembers this talk from Laracon 2018?
 -->
 
 ---
-layout: image
-backgroundSize: 60%
-image: /images/embrace-the-backend-iconic-slide.webp
+layout: center
 ---
+
+<img src="/images/embrace-the-backend-iconic-slide.webp" class="w-[75%] mx-auto" alt="A screencap of one of the first slides in Caleb's 2018 talk. The text says: Embrace the Backend 🍑">
 
 <!--
 Or remembers this iconic slide?
 -->
 
 ---
-layout: image
-backgroundSize: 80%
-image: /images/origin-of-livewire.webp
+layout: center
 ---
+
+<img src="/images/origin-of-livewire.webp" alt="A screenshot of the first comment on the video. The text says 'This speech should be named The Origin of Livewire'">
 
 <!--
 The first comment under the YouTube video says: "This speech should be named "The Origin of Livewire", which is totally true! 

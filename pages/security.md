@@ -68,7 +68,7 @@ I know I do...
 layout: section
 ---
 
-# Who uses full page components?
+# Who uses full-page components?
 
 ---
 layout: center
@@ -97,16 +97,16 @@ layout: center
 </div>
 
 ---
-layout: image
-backgroundSize: contain
-image: ./images/mostly-technical.webp
+layout: center
 ---
 
+<img src="/images/mostly-technical.webp" class="w-[60%] mx-auto" alt="The Mostly Technical podcast image">
+
 ---
-layout: image
-backgroundSize: contain
-image: ./images/stephen-rees-carter.webp
+layout: center
 ---
+
+<img src="/images/stephen-rees-carter.webp" alt="Stephen Rees Carter's Avatar">
 
 ---
 layout: section
