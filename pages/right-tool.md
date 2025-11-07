@@ -3,7 +3,12 @@ layout: section
 ---
 
 # Use the right tool for the job
+
+<v-click>
+
 ## Not everything needs to be Livewire
+
+</v-click>
 
 <!--
 Trust me, my compulsion to have _everything_ be the same makes me want everything to be Livewire... but most times plain 'ol blade will work fine.
@@ -52,6 +57,7 @@ students...
 
 ````md magic-move 
 ```blade
+{{-- livewire/courses.blade.php --}}
 <flux:table>
     <flux:table.columns>
         <flux:table.column>Grade</flux:table.column>
@@ -76,6 +82,7 @@ students...
 </flux:table>
 ```
 ```blade 
+{{-- livewire/courses.blade.php --}}
 <flux:table>
     <flux:table.columns>
         <flux:table.column>Grade</flux:table.column>
@@ -92,6 +99,7 @@ students...
 </flux:table>
 ```
 ```blade
+{{-- livewire/courses/row.blade.php --}}
 <flux:table.row wire:key="$course->id">
     <flux:table.cell class="flex gap-2 items-center">
         <x-color-dot :background="$course->color->background()" />
@@ -103,6 +111,7 @@ students...
 </flux:table.row>
 ```
 ```blade 
+{{-- livewire/courses.blade.php --}}
 <flux:table>
     <flux:table.columns>
         <flux:table.column>Grade</flux:table.column>
@@ -169,6 +178,10 @@ image: ./images/extensible-blade-components.webp
 backgroundSize: 80%
 ---
 
+<div class="absolute h-full w-full inset-0 flex items-end justify-center">
+    <a href="https://tighten.com/insights/extensible-blade-components/" target="_blank" class="text-gray-400 text-sm !border-none">Link</a>
+</div>
+
 <!--
 This post by Marcus Moore does a really good job of talking about how to extract blade components
 -->
@@ -188,6 +201,10 @@ layout: image
 image: ./images/optimistic-ui.webp
 backgroundSize: 80%
 ---
+
+<div class="absolute h-full w-full inset-0 flex items-end justify-center">
+    <a href="https://tighten.com/insights/optimistic-ui-tips-livewire-alpine/" target="_blank" class="text-gray-400 text-sm !border-none">Link</a>
+</div>
 
 <!--
 So for a really awesome walk through on using Livewire and Alpine to make optomisic UI's check out this post by Tony and Omar

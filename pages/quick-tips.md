@@ -67,25 +67,39 @@ trait WithDataTable
         $this->resetPage();
     }
 }
+
 ```
 
+<v-click>
+
+<Arrow x1="600" y1="400" x2="260" y2="225" />
+<Arrow x1="600" y1="400" x2="260" y2="475" />
+
+<div class="absolute" style="top: 387px; left: 610px">I did that 😁</div>
+
+</v-click>
+
 <!-- 
-Here's an example of a trait I made in my LifeOS app Sunny, TBH I can't decide if trait props should or shouldn't be in the trait. But for now I'm thinking of them as sensible defaults.
+Here's an example of a trait I made in my LifeOS app Sunny, which is a little different from the example on the Flux docs, 
+TBH I can't decide if trait props should or shouldn't be in the trait. 
+But for now I'm thinking of the public properties as sensible defaults.
+
+Also random story, Caleb and I added the `resetPage` to a super early version of Livewire when he was interviewing the community for feedback. 
 -->
 
 ---
 layout: section
 ---
 
-# Don’t forget test!
+# Don’t forget to test!
 
 ---
 layout: center
 ---
 
-# Normal Test
+# Livewire Component Test
 
-```php
+```php {all|2-12|16-19|20-23|all}
 test('can delete course', function () {
     $course = Course::factory()
         ->has(
@@ -107,8 +121,8 @@ test('can delete course', function () {
         ->assertSee('2nd Grade');
 
     expect($this->course->fresh())->toBeNull()
-        ->and($meeting->fresh())->toBeNull()
-        ->and($meeting->fresh())->toBeNull();
+        ->and($meetingA->fresh())->toBeNull()
+        ->and($meetingB->fresh())->toBeNull();
 });
 ```
 
@@ -126,7 +140,7 @@ layout: center
 
 # Pest v4 Browser Testing
 
-```php
+```php {all|2-12|14-19|all}
 test('can delete course', function () {
     $course = Course::factory()
         ->has(
@@ -148,6 +162,10 @@ test('can delete course', function () {
         ->assertDontSee('1st Grade');
 });
 ```
+
+<!--
+But now with Pest's browser testing, we can test that clicking the button does actually do something!
+-->
 
 ---
 layout: image
