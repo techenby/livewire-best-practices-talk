@@ -10,8 +10,9 @@ drawings:
   persist: false
 transition: slide-left
 mdc: true
-font:
-  serif: BROTHER
+fonts:
+  sans: Inter
+  serif: "Brother,Permanent Marker"
   mono: MonoLisa
 ---
 

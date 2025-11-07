@@ -176,3 +176,14 @@
         background-color: #380036;
     }
 }
+
+@font-face {
+    font-family: Brother;
+    src: url('/fonts/Brother-Regular.ttf');
+}
+
+@font-face {
+    font-family: Brother;
+    src: url('/fonts/Brother-Bold.ttf');
+    font-weight: bold;
+}
