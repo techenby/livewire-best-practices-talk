@@ -3,8 +3,7 @@
 This is a presentation given at [Wire:Live 2025](https://wire-live.com/) in Buffalo, New York on October 28, 2025. Built with [sli.dev](https://sli.dev/).
 
 [Slide Deck](https://techenby.github.io/livewire-best-practices-talk/)
-
-Recording coming soon.
+[Video](https://www.youtube.com/watch?v=sDEohTrNVvc&list=PLUA0-roTCM999jd102QKYtdOZjzqWpSQ4)
 
 > [!NOTE]  
 > I would love to give this talk or other related presentations at your meetup or conference. If you're interested in collaborating or have any questions, please feel free to reach out!
